@@ -1,0 +1,17 @@
+<html>
+  <head>
+      <title>Homepage</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+  <body style="font-family: 'Roboto', sans-serif; font-size: 50px;">
+        <p style="text-align: center;">
+            welcome to oauth tutorial demo
+        </p>
+        <div style="text-align: center;">
+            <button style="background-color: #008CBA; font-size: 25px; padding: 15px 15px; color: white;"
+                onclick="location.href='http://localhost:8001/v1/oauth2/authorize?response=code&client_id=<%= clientid %>&redirect_uri=<%= redirect_uri %>'">
+                Login with Ailene
+            </button>
+        </div>
+  </body>
+</html>
